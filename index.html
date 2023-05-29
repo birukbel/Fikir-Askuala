@@ -15,7 +15,8 @@
   <title>Fikir Askuala</title>
 
 
-
+ <!-- Custom styles for this template -->
+ <link href="css/style.css" rel="stylesheet" />
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
   <!-- progress barstle -->
@@ -24,8 +25,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <!-- font wesome stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+ 
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
@@ -288,9 +288,6 @@
     </div>
   </section>
 
-
-
-
   <!-- client section -->
 
   <!-- contact section -->
@@ -335,11 +332,8 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
-
-
   <!-- end contact section -->
 
 
@@ -349,9 +343,9 @@
       <h2>Login</h2>
       <input type="text" placeholder="Username">
       <input type="password" placeholder="Password">
-      <label for="rememberMe">
+      <!-- <label for="rememberMe">
         <input type="checkbox" id="rememberMe"> Remember Me
-      </label>
+      </label> -->
       <input type="submit" value="Log in">
       <div class="options">
         <a href="#" id="forgotPassword">Forgot Password</a>
@@ -413,16 +407,16 @@
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 11,
         center: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 8.983444,
+          lng: 38.777667
         },
       });
 
       var image = 'images/maps-and-flags.png';
       var beachMarker = new google.maps.Marker({
         position: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: 8.983444,
+          lng: 38.777667
         },
         map: map,
         icon: image
@@ -430,7 +424,7 @@
     }
   </script>
   <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"> 
   </script>
   <!-- end google map js -->
 </body>
