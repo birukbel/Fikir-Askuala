@@ -356,6 +356,72 @@ a:focus {
 
 /* end contact section */
 
+
+/* login section */
+
+#loginPopup {
+  
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#loginPopup form {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#loginPopup h2 {
+  text-align: center;
+}
+
+/* #rememberMe {
+  text-align: justify;
+  font-size: small;
+} */
+
+#loginPopup input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#loginPopup input[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#loginPopup .options {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#loginPopup .options a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+#loginPopup .options a:hover {
+  text-decoration: underline;
+}
+
+/* end login section */
+
+
 /* admission section */
 
 
