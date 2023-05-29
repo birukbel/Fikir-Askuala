@@ -21,19 +21,6 @@ document.getElementById('loginButton').addEventListener('click', function() {
     // Add your logic for the "Sign Up" functionality
     alert('Sign Up clicked');
   });
-  
-
-const db = require('./db.js');
-
-// Example query in a different file
-db.query('SELECT * FROM users', (err, results) => {
-  if (err) {
-    console.error('Error executing the query:', err);
-    return;
-  }
-  console.log('Results:', results);
-});
-
 
 
 
